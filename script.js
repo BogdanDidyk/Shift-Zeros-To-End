@@ -1,4 +1,4 @@
-function shiftZeroNumbersToEndArray(arr) {
+function shiftZerosToEndArray(arr) {
     const len = arr.length;
     let nonZerosItems = 0;
     
@@ -14,19 +14,3 @@ function shiftZeroNumbersToEndArray(arr) {
         nonZerosItems++;
     }
 }
-
-let arr = [1, 0, 6, 0, 3];
-shiftZeroNumbersToEndArray(arr);
-console.log(arr);
-
-arr = [0, 1.4, 2, 3, 4];
-shiftZeroNumbersToEndArray(arr);
-console.log(arr);
-
-arr = [0, 0, 1, 0];
-shiftZeroNumbersToEndArray(arr);
-console.log(arr);
-
-arr = [0, 0, 0, 0];
-shiftZeroNumbersToEndArray(arr);
-console.log(arr);
