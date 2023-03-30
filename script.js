@@ -14,3 +14,19 @@ function shiftZerosToEndArray(arr) {
         nonZerosItems++;
     }
 }
+
+let arr = [1, 0, 6, 0, 3];
+shiftZerosToEndArray(arr);
+console.log(arr);
+
+arr = [0, 1.4, 2, 3, 4];
+shiftZerosToEndArray(arr);
+console.log(arr);
+
+arr = [0, 0, 1, 0];
+shiftZerosToEndArray(arr);
+console.log(arr);
+
+arr = [0, 0, 0, 0];
+shiftZerosToEndArray(arr);
+console.log(arr);
